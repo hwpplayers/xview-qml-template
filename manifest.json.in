@@ -1,0 +1,15 @@
+{
+    "name": "xview.hwpplayer1",
+    "description": "xview process viewer",
+    "architecture": "@CLICK_ARCH@",
+    "title": "xview-qml-template",
+    "hooks": {
+        "xview": {
+            "apparmor": "xview.apparmor",
+            "desktop":  "xview.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Mert Gör <mertgor@masscollabs.com>",
+    "framework" : "ubuntu-sdk-16.04"
+}
